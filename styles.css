@@ -1,0 +1,88 @@
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 3.3rem;
+    margin-top: 15rem;
+    color: rgb(255, 255, 255);
+}
+
+img {
+    position: absolute;
+    margin-top: -40rem;
+    width: 50rem;
+    display: none;
+}
+
+body {
+    background-color: #c21761ff;    
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: rgb(240, 147, 201);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+button {
+    transition: all ease-in-out 200ms;
+    width: 12rem;
+    height: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 200ms;
+}
+
+button:hover {
+    cursor: pointer;
+    transition: all ease-in-out 200ms;
+    transform: scale(1.02);
+}
+
+button:active {
+    transition: all ease-in-out 100ms;
+    transform: scale(1.05);
+}
+
+#si {
+    background-color: #a641f2ff;
+}
+
+#no {
+    background-color: #e33299ff;
+    width: 8rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    h1 {
+        text-wrap: none;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    .container {
+        margin-top: 4rem;
+    }
+
+    button {
+        width: 5rem;
+        height: 4rem;
+    }
+}
